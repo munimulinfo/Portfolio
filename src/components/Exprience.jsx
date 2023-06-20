@@ -25,7 +25,7 @@ const Exprience = () => {
   <div className="card-body">
                                     <div className="card-title">
                                     <div className="title-area flex items-center justify-between w-full">
-                                        <h2>Full Stack Developer (intern)</h2>
+                                        <h2>Full Stack Developer</h2>
                                         <h4 className='text-sm text-gray-500'>June 2022-Jan 2023</h4>
                                     </div>
 

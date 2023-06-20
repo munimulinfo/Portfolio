@@ -17,11 +17,11 @@ import demo from '../assets/logos/demo.svg'
 
 const AllProject = () => {
     return (
-        <div className='grid grid-cols-3'>
+        <div className='lg:grid lg:grid-cols-3 grid-cols-1 w-full '>
 
             {/* Sports Shala */}
             <div className="card-area mt-10">
-                 <div className="card w-96 bg-base-100 shadow-xl hover:scale-110  ease-in duration-100">
+                 <div className="card w-96 bg-base-100 shadow-xl hover:scale-110  ease-in duration-100  mx-auto">
   <figure><img src={sportShala} alt="sportShala" className='h-32' /></figure>
   <div className="card-body ">
     <h2 className="card-title">
@@ -105,7 +105,7 @@ const AllProject = () => {
 
             {/* Power Toys Shala */}
             <div className="card-area mt-10">
-                 <div className="card w-96 bg-base-100 shadow-xl hover:scale-110  ease-in duration-100">
+                 <div className="card w-96 bg-base-100 shadow-xl hover:scale-110  ease-in duration-100 mx-auto">
   <figure><img src={powerToys} className='h-48' alt="powerToys" /></figure>
   <div className="card-body ">
     <h2 className="card-title">
@@ -183,7 +183,7 @@ const AllProject = () => {
 
              {/* Chefai */}
             <div className="card-area mt-10">
-                 <div className="card w-96 bg-base-100 shadow-xl hover:scale-110  ease-in duration-100">
+                 <div className="card w-96 bg-base-100 shadow-xl hover:scale-110  ease-in duration-100 mx-auto">
   <figure><img src={chefai} className='h-48' alt="chefai" /></figure>
   <div className="card-body ">
     <h2 className="card-title">
@@ -247,7 +247,7 @@ const AllProject = () => {
 
              {/* ChakriHub */}
             <div className="card-area mt-10">
-                 <div className="card w-96 bg-base-100 shadow-xl hover:scale-110  ease-in duration-100">
+                 <div className="card w-96 bg-base-100 shadow-xl hover:scale-110  ease-in duration-100 mx-auto">
   <figure><img src={chakrihub} className='h-48' alt="chakrihub" /></figure>
   <div className="card-body ">
     <h2 className="card-title">
@@ -303,7 +303,7 @@ const AllProject = () => {
 
             {/* To Do List */}
             <div className="card-area mt-10">
-                 <div className="card w-96 bg-base-100 shadow-xl hover:scale-110  ease-in duration-100">
+                 <div className="card w-96 bg-base-100 shadow-xl hover:scale-110  ease-in duration-100 mx-auto">
   <figure><img src={todo} className='h-48' alt="todo" /></figure>
   <div className="card-body ">
     <h2 className="card-title">

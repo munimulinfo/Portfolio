@@ -5,7 +5,7 @@ import AllProject from './AllProject';
 
 const Project = () => {
     return (
-        <div id='project '>
+        <div id='project'>
             <Header subtitle={"MY PROJECTS"} title={"What are my Projects?_ "}></Header>
             <AllProject></AllProject>
         </div>

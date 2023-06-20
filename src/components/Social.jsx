@@ -29,8 +29,8 @@ const Social = () => {
 
     return (
         <div className='py-2'>
-             <div className="justify-center flex gap-5 ">
-                <div className="flex items-center gap-2 border border-1 px-5 py-1  rounded-xl shadow-md bg-slate-50 transition-colors duration-300 hover:bg-[#76D4EA] hover:text-slate-50"
+             <div className="lg:justify-center flex lg:flex-row flex-col gap-5 ">
+                <div className="flex items-center gap-2 border border-1 px-5 py-1 rounded-xl shadow-md bg-slate-50 transition-colors duration-300 hover:bg-[#76D4EA] hover:text-slate-50"
                     onMouseEnter={() => handleMouseEnter('item1')}
                     onMouseLeave={() => handleMouseLeave('item1')}>
                     <img className='h-4 w-4' src={github} alt="" /> <button  >
@@ -44,7 +44,7 @@ const Social = () => {
                     
                     </button>
                        </div>
-                <div className="flex items-center gap-2 border border-1 px-5 py-1  rounded-xl shadow-md bg-slate-50 transition-colors duration-300 hover:bg-[#76D4EA] hover:text-slate-50"
+                <div className="flex items-center gap-2 border border-1 px-5 py-1 rounded-xl shadow-md bg-slate-50 transition-colors duration-300 hover:bg-[#76D4EA] hover:text-slate-50"
                     onMouseEnter={() => handleMouseEnter('item2')}
                     onMouseLeave={() => handleMouseLeave('item2')}
                 >

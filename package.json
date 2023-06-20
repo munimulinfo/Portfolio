@@ -10,14 +10,19 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.1",
     "@headlessui/react": "^1.7.15",
+    "gooey-react": "^1.1.0",
     "lottie-react": "^2.4.0",
     "react": "^18.2.0",
+    "react-awesome-reveal": "^4.2.3",
+    "react-custom-scroll": "^5.0.0",
     "react-dom": "^18.2.0",
     "react-fast-marquee": "^1.6.0",
     "react-icons": "^4.9.0",
     "react-orbits": "^1.0.5",
     "react-planet": "^1.0.1-ie11",
+    "react-pulse-text": "^1.0.8",
     "react-scripts": "5.0.1",
     "react-scrollspy": "^3.4.3",
     "react-simple-typewriter": "^5.0.1"

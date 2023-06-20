@@ -16,3 +16,4 @@
 .underline-custom:focus::after {
     @apply transform origin-left scale-x-100;
 }
+

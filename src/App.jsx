@@ -6,8 +6,12 @@ import Exprience from './components/Exprience';
 import Learning from './components/Learning';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import { useState } from 'react';
 
 const App = () => {
+
+
+
   return (
     <div className=''>
       <Navbar></Navbar>

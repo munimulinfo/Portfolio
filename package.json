@@ -19,6 +19,7 @@
     "react-orbits": "^1.0.5",
     "react-planet": "^1.0.1-ie11",
     "react-scripts": "5.0.1",
+    "react-scrollspy": "^3.4.3",
     "react-simple-typewriter": "^5.0.1"
   },
   "devDependencies": {

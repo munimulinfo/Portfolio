@@ -15,7 +15,7 @@ import wordpress from '../assets/logos/wordpress.svg'
 
 const Exprience = () => {
     return (
-        <div className="left-side">
+        <div className="left-side" id='exprience'>
              <div className='mt-10'>
                 <div className="single">
                                     <Header subtitle={"MY EXPERIENCES"} title={"Where Did I Worked?_ "}></Header>

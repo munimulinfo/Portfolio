@@ -4,7 +4,7 @@ import AllExprience from './AllExprience';
 
 const Learning = () => {
     return (
-        <div className='mt-10'>
+        <div className='mt-10' id='skills'>
             <Header subtitle={'MY SKILLS'} title={'What am I Learning?'}></Header>
             <div className="all-exp">
                 <AllExprience></AllExprience>

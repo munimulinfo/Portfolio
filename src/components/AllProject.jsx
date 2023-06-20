@@ -22,10 +22,10 @@ const AllProject = () => {
             {/* Sports Shala */}
             <div className="card-area mt-10">
                  <div className="card w-96 bg-base-100 shadow-xl hover:scale-110  ease-in duration-100">
-  <figure><img src={sportShala} alt="sportShala" /></figure>
+  <figure><img src={sportShala} alt="sportShala" className='h-32' /></figure>
   <div className="card-body ">
     <h2 className="card-title">
-      Sports Shala -  Cricket Learning Platform 
+      Sports Shala - Cricket Learning Platform 
                     </h2>
     <p className='text-sm text-gray-500'>Sports Shala is a Application Based on Cricket Learning Where you can Be a instructor, Add your own course and as a student you can buy it.</p>
                         <div className="card-actions justify-start mt-3">
@@ -106,7 +106,7 @@ const AllProject = () => {
             {/* Power Toys Shala */}
             <div className="card-area mt-10">
                  <div className="card w-96 bg-base-100 shadow-xl hover:scale-110  ease-in duration-100">
-  <figure><img src={powerToys} alt="powerToys" /></figure>
+  <figure><img src={powerToys} className='h-48' alt="powerToys" /></figure>
   <div className="card-body ">
     <h2 className="card-title">
       Power Toys - Toys Market Place
@@ -184,7 +184,7 @@ const AllProject = () => {
              {/* Chefai */}
             <div className="card-area mt-10">
                  <div className="card w-96 bg-base-100 shadow-xl hover:scale-110  ease-in duration-100">
-  <figure><img src={chefai} alt="chefai" /></figure>
+  <figure><img src={chefai} className='h-48' alt="chefai" /></figure>
   <div className="card-body ">
     <h2 className="card-title">
       Chefai - Chef Directory
@@ -248,12 +248,12 @@ const AllProject = () => {
              {/* ChakriHub */}
             <div className="card-area mt-10">
                  <div className="card w-96 bg-base-100 shadow-xl hover:scale-110  ease-in duration-100">
-  <figure><img src={chakrihub} alt="chakrihub" /></figure>
+  <figure><img src={chakrihub} className='h-48' alt="chakrihub" /></figure>
   <div className="card-body ">
     <h2 className="card-title">
       Chakri Hub - Jobs Hunter Market
                     </h2>
-    <p className='text-sm text-gray-500'>On Chakri Hub you can find various kind of jobs that meets your skills and category.</p>
+    <p className='text-sm text-gray-500'>On Chakri Hub you can find various kind of jobs that meets your skills and category. The Jobs you add to the Apply list are saved on localStorage.</p>
                         <div className="card-actions justify-start mt-3">
                               <div className="flex items-center gap-1 border border-2 p-1 px-2 rounded-xl bg-[#F7DF1E] bg-opacity-30">
                                 <div className="logo-area">
@@ -304,12 +304,12 @@ const AllProject = () => {
             {/* To Do List */}
             <div className="card-area mt-10">
                  <div className="card w-96 bg-base-100 shadow-xl hover:scale-110  ease-in duration-100">
-  <figure><img src={todo} alt="todo" /></figure>
+  <figure><img src={todo} className='h-48' alt="todo" /></figure>
   <div className="card-body ">
     <h2 className="card-title">
       To do List- With React
                     </h2>
-    <p className='text-sm text-gray-500'>I’ve developed a to-do list app using React Context and Hooks. The tasks you add to the to-do list are saved on localStorage. So, even if you close the page, your task list will stored.</p>
+    <p className='text-sm text-gray-500'>I’ve developed a to-do list app using React Context and Hooks. The tasks you add to the to-do list are saved on localStorage.</p>
                         <div className="card-actions justify-start mt-3">
                               <div className="flex items-center gap-1 border border-2 p-1 px-2 rounded-xl bg-[#F7DF1E] bg-opacity-30">
                                 <div className="logo-area">

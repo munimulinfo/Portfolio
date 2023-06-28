@@ -1,12 +1,30 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Typewriter } from 'react-simple-typewriter'
 import ImageArea from './ImageArea';
 import Goo from 'gooey-react'
 import { Slide } from "react-awesome-reveal";
+import { FiArrowRight } from 'react-icons/Fi';
 
 
 
 const AboutMe = () => {
+
+      const [hoveredItems, setHoveredItems] = useState({});
+
+  const handleMouseEnter = (itemId) => {
+    setHoveredItems((prevHoveredItems) => ({
+      ...prevHoveredItems,
+      [itemId]: true,
+    }));
+  };
+
+  const handleMouseLeave = (itemId) => {
+    setHoveredItems((prevHoveredItems) => ({
+      ...prevHoveredItems,
+      [itemId]: false,
+    }));
+    };
+    
     return (
         <div id='about'>
             
@@ -35,11 +53,22 @@ const AboutMe = () => {
                         My skill set includes expertise in modern frontend technologies such as HTML5, CSS3, JavaScript, and frameworks like React and Node. </p> <br />
                     
                 <p>I'm also proficient in build API/RestFul API, creating API with Express and Use MongoDB as Database. I also have experience with version control systems like Git and package managers such as npm.</p>
-               
-            </div>
+                    <button className='btn mt-10 border border-2 border-[#5F86D6] transition-colors duration-300 hover:bg-[#5F86D6] hover:text-slate-50'  onMouseEnter={() => handleMouseEnter('item1')}
+                    onMouseLeave={() => handleMouseLeave('item1')}>
+                         <a className='flex items-center gap-1' target="_blank" href="https://drive.google.com/file/d/1j6ZVAQmDejP88O92JBVfZKyF7uwLQXyk/view">My Resume 
+                         {
+                            hoveredItems['item1'] ? <FiArrowRight className='transition duration-300' size={18}/> : <></>
+                        }
+                        </a>
+                        </button>
+                </div>
+                
             <div className="image-area">
                 <ImageArea></ImageArea>
+                </div>
             </div>
+            <div>
+                
             </div>
        </div>
     );

@@ -35,7 +35,7 @@ const Social = () => {
                     onMouseLeave={() => handleMouseLeave('item1')}>
                     <img className='h-4 w-4' src={github} alt="" /> <button  >
                        
-                        <a className='flex items-center gap-1' target="_blank" href="https://github.com/byomkesh2580/todo-with-react">Github 
+                        <a className='flex items-center gap-1' target="_blank" href="https://github.com/byomkesh2580">Github 
                          {
                             hoveredItems['item1'] ? <FiArrowRight className='transition duration-300' /> : <></>
                         }

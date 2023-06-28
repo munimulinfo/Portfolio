@@ -39,7 +39,7 @@ const AboutMe = () => {
           {/* Style will be inherited from the parent element */}
           <Typewriter
             words={[' Habibur Rahman.', ' React Developer.']}
-            loop={5}
+            loop={30}
             cursor
             cursorStyle='_'
             typeSpeed={70}

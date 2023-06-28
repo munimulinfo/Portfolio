@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emailjs/browser": "^3.11.0",
     "@emotion/react": "^11.11.1",
     "@headlessui/react": "^1.7.15",
     "gooey-react": "^1.1.0",
@@ -19,13 +20,15 @@
     "react-custom-scroll": "^5.0.0",
     "react-dom": "^18.2.0",
     "react-fast-marquee": "^1.6.0",
+    "react-hot-toast": "^2.4.1",
     "react-icons": "^4.9.0",
     "react-orbits": "^1.0.5",
     "react-planet": "^1.0.1-ie11",
     "react-pulse-text": "^1.0.8",
     "react-scripts": "5.0.1",
     "react-scrollspy": "^3.4.3",
-    "react-simple-typewriter": "^5.0.1"
+    "react-simple-typewriter": "^5.0.1",
+    "sweetalert2": "^11.7.12"
   },
   "devDependencies": {
     "@types/react": "^18.0.37",

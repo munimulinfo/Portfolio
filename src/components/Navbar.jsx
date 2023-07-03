@@ -30,7 +30,7 @@ const Navbar = ({toggleDarkMode, darkMode}) => {
   <div className="drawer-content flex flex-col">
     {/* Navbar */}
     <div className={`navbar px-6 ${scrolled ? 'transition ease-in-out delay-150 lg:z-10 lg:bg-opacity-30 lg:bg-[#5F86D6] lg:text-white lg:fixed lg:max-w-screen-xl px-6 rounded-xl' : ''}`}>
-        <div className="flex-1 gap-2 text-[#5E81E5] font-bold"><h3>Habib </h3> <p> Jr. React Developer</p></div>
+        <div className="flex-1 gap-2 text-[#5E81E5] text-[20px] font-bold"><h3>Munimul </h3> <p> Jr. Web Developer</p></div>
         <div className="flex-none lg:hidden">
         <label htmlFor="my-drawer-3" className="btn btn-square btn-ghost">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="inline-block w-6 h-6 stroke-current"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>

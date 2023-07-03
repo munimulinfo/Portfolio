@@ -38,7 +38,7 @@ const AboutMe = () => {
                      <span className='ml-3 font-bold text-[#5F86D6]'>
           {/* Style will be inherited from the parent element */}
           <Typewriter
-            words={[' Habibur Rahman.', ' React Developer.']}
+            words={[' Munimul Islam.', ' Web Developer.']}
             loop={30}
             cursor
             cursorStyle='_'
@@ -49,13 +49,13 @@ const AboutMe = () => {
         </span>
                 </div>
                 </Slide >
-               <p className='mt-10'>Hi, I'm Habib, a passionate React Developer with experience in building user-friendly and visually appealing web applications. I thrive on creating seamless user experiences and transforming design concepts into functional websites.
+               <p className='mt-10'>Hi, I'm Munimul, a passionate React Developer with experience in building user-friendly and visually appealing web applications. I thrive on creating seamless user experiences and transforming design concepts into functional websites.
                         My skill set includes expertise in modern frontend technologies such as HTML5, CSS3, JavaScript, and frameworks like React and Node. </p> <br />
                     
                 <p>I'm also proficient in build API/RestFul API, creating API with Express and Use MongoDB as Database. I also have experience with version control systems like Git and package managers such as npm.</p>
                     <button className='btn mt-10 border border-2 border-[#5F86D6] transition-colors duration-300 hover:bg-[#5F86D6] hover:text-slate-50'  onMouseEnter={() => handleMouseEnter('item1')}
                     onMouseLeave={() => handleMouseLeave('item1')}>
-                         <a className='flex items-center gap-1' target="_blank" href="https://drive.google.com/file/d/1j6ZVAQmDejP88O92JBVfZKyF7uwLQXyk/view">My Resume 
+                         <a className='flex items-center gap-1' target="_blank" href="https://drive.google.com/file/d/1Rhqg2fy3oSrivHu1lAjDAfNMTMZrbF8-/view?usp=sharing">My Resume 
                          {
                             hoveredItems['item1'] ? <FiArrowRight className='transition duration-300' size={18}/> : <></>
                         }

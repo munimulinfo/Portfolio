@@ -35,7 +35,7 @@ const Social = () => {
                     onMouseLeave={() => handleMouseLeave('item1')}>
                     <img className='h-4 w-4' src={github} alt="" /> <button  >
                        
-                        <a className='flex items-center gap-1' target="_blank" href="https://github.com/byomkesh2580">Github 
+                        <a className='flex items-center gap-1' target="_blank" href="https://github.com/munimulinfo">Github 
                          {
                             hoveredItems['item1'] ? <FiArrowRight className='transition duration-300' /> : <></>
                         }
@@ -49,7 +49,7 @@ const Social = () => {
                     onMouseLeave={() => handleMouseLeave('item2')}
                 >
                     <img className='h-4 w-4' src={facebook} alt="" /> <button >
-                        <a className='flex items-center gap-1' target="_blank" href="https://www.facebook.com/habibrahman2580/">Facebook
+                        <a className='flex items-center gap-1' target="_blank" href="https://www.facebook.com/monimulhoque.nissan">Facebook
                         {
                             hoveredItems['item2'] ? <FiArrowRight className='' /> : <></>
                             }
@@ -61,7 +61,7 @@ const Social = () => {
                     onMouseLeave={() => handleMouseLeave('item3')}
                 >
                     <img className='h-4 w-4' src={gmail} alt="" /> <button>
-                        <a className='flex items-center gap-1' target="_blank" href="mailto:habibrahman2580@gmail.com">Email
+                        <a className='flex items-center gap-1' target="_blank" href="mailto:munimul.info@gmail.com">Email
                         {
                             hoveredItems['item3'] ? <FiArrowRight className='' /> : <></>
                             }
@@ -73,7 +73,7 @@ const Social = () => {
                     onMouseLeave={() => handleMouseLeave('item4')}
                 >
                     <img className='h-4 w-4' src={linkedin} alt="" /> <button>
-                        <a className='flex items-center gap-1' target="_blank" href="https://www.linkedin.com/in/habib1028/">Linkedin
+                        <a className='flex items-center gap-1' target="_blank" href="https://www.linkedin.com/in/munimul-islam/">Linkedin
                         {
                             hoveredItems['item4'] ? <FiArrowRight className='' /> : <></>
                             }
@@ -85,7 +85,7 @@ const Social = () => {
                     onMouseLeave={() => handleMouseLeave('item5')}
                 >
                     <img className='h-4 w-4' src={whatsapp} alt="" /> <button>
-                        <a className='flex items-center gap-1' target="_blank" href="https://api.whatsapp.com/send?phone=01635034289">Whatsapp
+                        <a className='flex items-center gap-1' target="_blank" href="https://api.whatsapp.com/send?phone=01799846537">Whatsapp
                         {
                             hoveredItems['item5'] ? <FiArrowRight className='' /> : <></>
                             }

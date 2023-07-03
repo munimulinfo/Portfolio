@@ -1,5 +1,5 @@
 import React from 'react';
-import sportShala from '../assets/projects/sportshala.jpg'
+import sportShala from '../assets/projects/Screenshot_2.png'
 import powerToys from '../assets/projects/powertoys.jpg'
 import chefai from '../assets/projects/chefai.jpg'
 import chakrihub from '../assets/projects/chakrihub.jpg'
@@ -25,9 +25,9 @@ const AllProject = () => {
   <figure><img src={sportShala} alt="sportShala" className='h-32' /></figure>
   <div className="card-body ">
     <h2 className="card-title">
-      Sports Shala - Cricket Learning Platform 
+    Melody Music Academy - Music Instruments Learning Platform 
                     </h2>
-    <p className='text-sm text-gray-500'>Sports Shala is a Application Based on Cricket Learning Where you can Be a instructor, Add your own course and as a student you can buy it.</p>
+    <p className='text-sm text-gray-500'>Melody Music Academy is a Application Based on Music Instrument Learning Where you can Be a instructor, Add your own course and as a student you can buy it.</p>
                         <div className="card-actions justify-start mt-3">
                               <div className="flex items-center gap-1 border border-2 p-1 px-2 rounded-xl bg-[#F7DF1E] bg-opacity-30">
                                 <div className="logo-area">
@@ -93,10 +93,10 @@ const AllProject = () => {
 
                     <div className="card-actions justify-center mt-4 flex gap-8 ">
                             <div className="flex items-center gap-2 border border-1 px-5 py-1  rounded-md bg-base-200">
-                                <img className='h-4 w-4' src={github} alt="" /> <button><a target="_blank" href="https://github.com/byomkesh2580/SportsShala">Github</a>  </button>
+                                <img className='h-4 w-4' src={github} alt="" /> <button><a target="_blank" href="https://github.com/programming-hero-web-course1/b712-summer-camp-client-side-munimulinfo">Github</a>  </button>
                        </div>
                             <div className="flex items-center gap-2 border border-1 px-5 py-1  rounded-md bg-blue-200">
-                                <img className='h-4 w-4' src={demo} alt="" /> <button><a target="_blank" href="https://sportsshala-b60ca.web.app/">View Demo</a>  </button>
+                                <img className='h-4 w-4' src={demo} alt="" /> <button><a target="_blank" href="https://music-insutruments-scholl.web.app/">View Demo</a>  </button>
                        </div>
     </div>
   </div>
@@ -170,7 +170,7 @@ const AllProject = () => {
 
                     <div className="card-actions justify-center mt-4 flex gap-8 ">
                             <div className="flex items-center gap-2 border border-1 px-5 py-1  rounded-md bg-base-200">
-                                <img className='h-4 w-4' src={github} alt="" /> <button><a target="_blank" href="https://github.com/byomkesh2580/PowerToy">Github</a>  </button>
+                                <img className='h-4 w-4' src={github} alt="" /> <button><a target="_blank" href="https://github.com/munimulinfo/Power-Toys">Github</a>  </button>
                        </div>
                             <div className="flex items-center gap-2 border border-1 px-5 py-1  rounded-md bg-blue-200">
                                 <img className='h-4 w-4' src={demo} alt="" /> <button><a target="_blank" href="https://powertoys-c6150.web.app/">View Demo</a>  </button>
@@ -233,7 +233,7 @@ const AllProject = () => {
 
                     <div className="card-actions justify-center mt-4 flex gap-8 ">
                             <div className="flex items-center gap-2 border border-1 px-5 py-1  rounded-md bg-base-200">
-                                <img className='h-4 w-4' src={github} alt="" /> <button><a target="_blank" href="https://github.com/byomkesh2580/Chefai">Github</a>  </button>
+                                <img className='h-4 w-4' src={github} alt="" /> <button><a target="_blank" href="https://github.com/munimulinfo/Chefai">Github</a>  </button>
                        </div>
                             <div className="flex items-center gap-2 border border-1 px-5 py-1  rounded-md bg-blue-200">
                                 <img className='h-4 w-4' src={demo} alt="" /> <button><a target="_blank" href="http://precious-crack.surge.sh/">View Demo</a>  </button>
@@ -289,7 +289,7 @@ const AllProject = () => {
 
                     <div className="card-actions justify-center mt-4 flex gap-8 ">
                             <div className="flex items-center gap-2 border border-1 px-5 py-1  rounded-md bg-base-200">
-                                <img className='h-4 w-4' src={github} alt="" /> <button><a target="_blank" href="https://github.com/byomkesh2580/ChakrirHub">Github</a>  </button>
+                                <img className='h-4 w-4' src={github} alt="" /> <button><a target="_blank" href="https://github.com/munimulinfo/Job-Hunter">Github</a>  </button>
                        </div>
                             <div className="flex items-center gap-2 border border-1 px-5 py-1  rounded-md bg-blue-200">
                                 <img className='h-4 w-4' src={demo} alt="" /> <button><a target="_blank" href="https://glittery-gecko-c1499b.netlify.app/">View Demo</a>  </button>
@@ -345,7 +345,7 @@ const AllProject = () => {
 
                     <div className="card-actions justify-center mt-4 flex gap-8 ">
                             <div className="flex items-center gap-2 border border-1 px-5 py-1  rounded-md bg-base-200">
-                                <img className='h-4 w-4' src={github} alt="" /> <button><a target="_blank" href="https://github.com/byomkesh2580/todo-with-react">Github</a>  </button>
+                                <img className='h-4 w-4' src={github} alt="" /> <button><a target="_blank" href="https://github.com/munimulinfo/TODO-LIST">Github</a>  </button>
                        </div>
                             <div className="flex items-center gap-2 border border-1 px-5 py-1  rounded-md bg-blue-200">
                                 <img className='h-4 w-4' src={demo} alt="" /> <button><a target="_blank" href="https://glistening-lamington-46b1d3.netlify.app/">View Demo</a>  </button>

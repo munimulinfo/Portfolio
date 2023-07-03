@@ -6,7 +6,7 @@ const Footer = () => {
         <div className="text-center mx-auto">
             <div className='py-4 mt-10 text-center mx-auto flex items-center gap-2 justify-center'>
              <span><FaCopyright className='text-center mx-auto'/></span> 
-              <h2 className='text-base text-gray-400'>Developed by Byomkesh </h2>
+              <h2 className='text-base text-gray-400'>Developed by Munimul Islam </h2>
         </div>
         </div>
     );

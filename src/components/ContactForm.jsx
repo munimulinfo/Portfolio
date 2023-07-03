@@ -8,11 +8,6 @@ const ContactForm = () => {
 
   const sendEmail = (e) => {
       e.preventDefault();
-    //    const name = event.target.user_name.value
-    // const email = event.target.user_email.value
-    // const message = event.target.user_msg.value
-    
-
     emailjs.sendForm('service_a6hz61k', "template_31aamag", e.target, 'ZLR0Aoyby7He3AUkK')
         .then((result) => {
         Swal.fire({
@@ -30,7 +25,7 @@ const ContactForm = () => {
     return (
         <div className='lg:py-8 lg:px-5'>
             <div className="content flex justify-between mx-auto items-center flex flex-col lg:flex lg:flex-row">
-<div className="w-full mt-20 mr-0 mb-0 ml-0 relative z-10 max-w-2xl lg:mt-0 lg:w-5/12 p-12">
+<div className="w-full lg:mt-20 mr-0 mb-0 ml-0 relative z-10 max-w-2xl lg:mt-0 lg:w-5/12 lg:p-12">
         <div className="flex flex-col items-start justify-start pt-10 pr-10 pb-10 pl-10 bg-white shadow-2xl rounded-xl
             relative z-10">
                         <p className="w-full lg:text-3xl text-2xl font-medium text-center leading-snug font-serif">Any Queries</p>
